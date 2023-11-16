@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div id="error" class="err">
+            Please enter a city name.
+        </div>
+        <div id="error1" class="err">
+            Some problem with the API.
+        </div>
+        <div id="error2" class="err">
+            City not available or invalid.
+        </div>
+        <div class="search-bar">
+            <input id="input" type="text" placeholder="Enter your city" spellcheck="false">
+            <button id="btn"><img src="Images/search.png" alt=""></button>
+        </div>
+        <div class="weather">
+            <img src="Images/rain.png" id="weather-icon" alt="">
+            <h1 id="temp">22°C</h1>
+            <h2 id="city">New Delhi</h2>
+        </div>
+        <div class="extra-details">
+            <div class="col">
+                <img class="extra-details-icons" src="Images/humidity.png" alt="">
+                <div>
+                    <p id="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img class="extra-details-icons" src="Images/wind.png" alt="">
+                <div>
+                    <p id="wind">15 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

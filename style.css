@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: #131c23;
+}
+
+.card {
+  background: #134e5e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #71b280,
+    #134e5e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #71b280,
+    #134e5e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 90%;
+  max-width: 500px;
+  margin: 4.3rem auto ;
+  border-radius: 1rem;
+  padding: 2.8rem 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.err{
+    background-color: #000000;
+    color: #e8e7e7;
+    width: fit-content;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 1.2rem;
+    padding: 0 0.2rem;
+    translate: 17rem 0;
+    transition: translate 0.3s ease-in-out;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#input {
+  height: 3rem;
+  width: 80%;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: #e8e7e7;
+}
+
+#btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: #e8e7e7;
+
+}
+
+.search-bar img {
+  width: 1.5rem;
+}
+
+.weather img {
+  width: 40%;
+  display: block;
+  margin: 1rem auto 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.extra-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra-details-icons {
+  width: 3rem;
+}
+
+.col p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-left: 0.8rem;
+}
