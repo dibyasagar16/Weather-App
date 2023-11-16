@@ -30,6 +30,7 @@ body {
   padding: 2.8rem 0;
   position: relative;
   overflow-x: hidden;
+  user-select: none;
 }
 
 .err{
