@@ -30,7 +30,6 @@ body {
   padding: 2.8rem 0;
   position: relative;
   overflow-x: hidden;
-  user-select: none;
 }
 
 .err{
@@ -63,6 +62,7 @@ body {
   font-size: 1.2rem;
   font-weight: 400;
   background-color: #e8e7e7;
+  user-select: none;
 }
 
 #btn {
@@ -79,7 +79,11 @@ body {
   width: 1.5rem;
 }
 
-.weather img {
+#weather{
+  display: none;
+}
+
+#weather img {
   width: 40%;
   display: block;
   margin: 1rem auto 0;
